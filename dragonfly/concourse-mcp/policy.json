@@ -1,0 +1,29 @@
+{
+  "exec": {
+    "min_rank": 60,
+    "cabin_rule": "First/Business any length",
+    "hotel_cap": 600,
+    "advance_days": 0,
+    "business_max_hours": null,
+    "per_diem_usdt": 120,
+    "ground_cap_usdt": 80
+  },
+  "senior": {
+    "min_rank": 40,
+    "cabin_rule": "Business <=6h flights, else Economy",
+    "hotel_cap": 320,
+    "advance_days": 5,
+    "business_max_hours": 6,
+    "per_diem_usdt": 75,
+    "ground_cap_usdt": 40
+  },
+  "staff": {
+    "min_rank": 1,
+    "cabin_rule": "Economy",
+    "hotel_cap": 200,
+    "advance_days": 7,
+    "business_max_hours": 0,
+    "per_diem_usdt": 45,
+    "ground_cap_usdt": 25
+  }
+}
